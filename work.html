@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sappa Jaggarao - Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MASON<span>PROfile</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Profile</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="work">
+    <h2>My Works</h2>
+    <div class="work-gallery">
+      <div class="work-item">
+        <img src="work\work1.png" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div>
+      <div class="work-item">
+        <img src="work\one.png" alt="Brick Wall" onclick="openModal(this)">
+        <p></p>
+      </div>
+      <div class="work-item">
+        <img src="work\two.png" alt="Stone Fireplace" onclick="openModal(this)">
+        <p></p>
+      </div>
+      <div class="work-item">
+        <img src="work\w1.png" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div>
+
+      <div class="work-item">
+        <img src="work\w2.png" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div>
+      
+      <div class="work-item">
+        <img src="work\work2.png" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div>
+
+      <div class="work-item">
+        <img src="work\w4.png" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div>
+
+      <div class="work-item">
+        <img src="work\w5.png" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div>
+
+      <!-- <div class="work-item">
+        <img src="images\download.jpg" alt="Garden Pathway" onclick="openModal(this)">
+        <p></p>
+      </div> -->
+    </div>
+  </section>
+  
+  <!-- Modal for Fullscreen Images -->
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+  
+
+  <footer>
+    <p>© 2024 Sappa Jaggarao | Powered by MasonProfile</p>
+  </footer>
+</body>
+</html>
